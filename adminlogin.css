@@ -1,0 +1,89 @@
+/* =========================
+   GLOBAL RESET
+========================= */
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body.admin-body {
+   font-family: Arial, sans-serif;
+   background: linear-gradient(135deg, #667eea, #764ba2);
+   min-height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+/* =========================
+   LOGIN BOX
+========================= */
+
+.admin-box {
+   width: 100%;
+   max-width: 400px;
+   background: white;
+   padding: 30px;
+   border-radius: 12px;
+   box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+   text-align: center;
+}
+
+/* TITLE */
+.admin-box h2 {
+   margin-bottom: 20px;
+   color: #333;
+}
+
+/* =========================
+   INPUT FIELDS
+========================= */
+
+.form-input {
+   width: 100%;
+   padding: 12px;
+   margin-bottom: 15px;
+   border: 1px solid #ccc;
+   border-radius: 8px;
+   font-size: 15px;
+   outline: none;
+   transition: 0.2s;
+}
+
+.form-input:focus {
+   border-color: #667eea;
+   box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.2);
+}
+
+/* =========================
+   LOGIN BUTTON
+========================= */
+
+.auth-btn {
+   width: 100%;
+   padding: 12px;
+   background: #667eea;
+   color: white;
+   border: none;
+   border-radius: 8px;
+   font-size: 16px;
+   font-weight: bold;
+   cursor: pointer;
+   transition: 0.2s;
+}
+
+.auth-btn:hover {
+   background: #5563d6;
+   transform: scale(1.03);
+}
+
+/* =========================
+   MESSAGE TEXT
+========================= */
+
+#msg {
+   margin-top: 10px;
+   font-size: 14px;
+}
